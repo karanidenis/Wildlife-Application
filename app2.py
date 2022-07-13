@@ -1,4 +1,4 @@
-from functions import introduction
+from functions import introduction, importance
 
 
 print("The Wild")
@@ -21,7 +21,7 @@ while True:
     if entry == "1":
         introduction()
     elif entry == "2":
-        pass
+        importance()
     elif entry == "3":
         pass
     elif entry == "4":
