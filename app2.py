@@ -1,4 +1,4 @@
-from my_funcs import introduction
+from functions import introduction
 
 
 print("The Wild")
