@@ -10,3 +10,9 @@ def importance():
     from pathlib import Path
     path2 = Path("important.txt")
     print(path2.read_text())
+
+
+def involve():
+    from pathlib import Path
+    path3 = Path("involve.txt")
+    print(path3.read_text())
