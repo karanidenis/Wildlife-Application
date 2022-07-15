@@ -1,7 +1,7 @@
 from functions import introduction, importance, involve
 
 
-print("The Wild")
+print("The Wild 🦍")
 print("----------------------------------------")
 name = input("What's your name: ")
 print(f"{name} welcome to The Wild")
