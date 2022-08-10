@@ -1,4 +1,4 @@
-from functions import introduction, importance, involve
+from functions import introduction, importance, involve, fact
 
 
 print("The Wild 🦍")
@@ -10,7 +10,7 @@ Menu:
 1. Intro to Wildlife Conservation
 2. Importance of Wildlife Conservation
 3. How to get involved in wildlife conservation
-4. Triva Quiz
+4. Facts about Wildlife
 5. Exit
 
 Select any option
@@ -28,7 +28,7 @@ while True:
     elif entry == "3":
         involve()
     elif entry == "4":
-        pass
+        fact()
     elif entry == "5":
         break
     else:
