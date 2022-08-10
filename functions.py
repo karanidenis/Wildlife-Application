@@ -16,3 +16,19 @@ def involve():
     from pathlib import Path
     path3 = Path("involve.txt")
     print(path3.read_text())
+
+
+def fact():
+    import random
+    import sys
+    import time
+    with open("facts.txt") as f:
+        Fact = f.readlines()
+    last = len(Fact) - 1
+    rdn = random.randint(0, last)
+    for char in Fact[rdn]:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(0.05)
+    print()
+
